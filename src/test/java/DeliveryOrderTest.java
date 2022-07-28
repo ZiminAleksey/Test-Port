@@ -16,7 +16,7 @@ import static org.openqa.selenium.Keys.BACK_SPACE;
 public class DeliveryOrderTest {
     @BeforeEach
     void open() {
-        Selenide.open("http://localhost:9999/");
+        Selenide.open("http://localhost:7777/");
     }
 
     public String getDate() {
